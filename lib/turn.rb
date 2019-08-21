@@ -42,4 +42,5 @@ def turn(board)
   index = input_to_index(input)
   end
   move(board, index, token='X')
+  display_board(board)
 end
